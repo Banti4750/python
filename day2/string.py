@@ -31,3 +31,13 @@ print(course[1:-1])
 # math
 # math jhasv asuihd auisuhdui
 # ath jhasv asuihd auisuhdu
+
+
+#formated string
+
+first = "John"
+last = "Smith"
+messsage = first + " [ " + last + " ] is a coder"
+msg = f"{first} [ {last} ] is a coder"
+print(messsage)
+print(msg)
