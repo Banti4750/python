@@ -32,9 +32,15 @@ numbers2 = numbers.copy()
 # remove dupliate from list
 
 numbers = [12 , 12 , 34 , 56 , 1 , 3 ,1 ]
-uniques = []
-for items in numbers:
-    if items not in uniques :
-        uniques.append(items)
+# uniques = []
+# for items in numbers:
+#     if items not in uniques :
+#         uniques.append(items)
 
-print(uniques)
+# print(uniques)
+
+# unpacking in list
+numbers = [1 , 2 , 3]
+a , b , c = numbers
+print(a)
+print(b)
