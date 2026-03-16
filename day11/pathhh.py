@@ -6,4 +6,4 @@ from pathlib import Path
 
 path = Path("test11.py")
 # print(path.touch())
-print(path.)
+print(path)
